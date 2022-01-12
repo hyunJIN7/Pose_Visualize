@@ -12,7 +12,8 @@ def addPose(num, w_list, ax0, s):
 
 
 if __name__ == "__main__":
-    posefile = open("00.txt").readlines()
+    #posefile = open("00.txt").readlines()
+    posefile = np.load('extrinsics_before.npy')
 
     tm = TransformManager()
     max_m = [0, 0, 0]
