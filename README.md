@@ -3,7 +3,9 @@
 
 ## Requirements:
 txt 만들어 놓기
-
+```
+pip install pytransform3d
+```
 
 ## Usage : 
 ```
